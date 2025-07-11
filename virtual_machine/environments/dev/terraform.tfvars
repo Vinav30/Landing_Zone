@@ -3,10 +3,6 @@ rgs-vinav = {
     name     = "rg-vinav30"
     location = "centralindia"
   }
-   rg1 = {
-    name     = "rg-vinavr0"
-    location = "centralindia"
-  }
 
 }
 
