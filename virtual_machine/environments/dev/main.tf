@@ -22,10 +22,8 @@ module "subnet" {
 
 module "linux_vm" {
   depends_on = [ module.nic_vm ]
-  source     = "../../modules/linux_vm"
+  source     = "../../modules/linux_v"
   linux_vm   = var.linux_vm
-
-  
 }
 module "sql_server" {
   depends_on = [module.resource_group]
