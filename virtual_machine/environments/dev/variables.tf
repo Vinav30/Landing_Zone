@@ -24,3 +24,11 @@ variable "sql_database" {
   type = map(any)
 
 }
+variable "nic_vm" {
+  type = map(any)
+
+}
+variable "pip" {
+  type = map(any)
+
+}
